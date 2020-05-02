@@ -1,0 +1,86 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+#intro-section {
+height: 100%;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+#intro-section {
+height: 100vh;
+}
+}
+
+.top-nav-collapse {
+background-color: #480048 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #480048 !important;
+}
+}
+
+.btn-rounded {
+  border-radius: 10em;
+}
+
+.rgba-gradient {
+  background: #C04848;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, rgba(72, 0, 72, 0.6), rgba(192, 72, 72, 0.9));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom,  rgba(72, 0, 72, 0.6), rgba(192, 72, 72, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mainColorText, .mainColorBackground {
+  color: #480048;
+}
+
+
+/*Added from the gallery css*/
+
+.container.gallery-container {
+    background-color: #fff;
+    min-height: 100vh;
+    border-radius: 20px;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.ourMask {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.ourMask:hover{
+    transform: scale(1.05);
+}
+
+
+.tz-gallery img,.ourMask {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
